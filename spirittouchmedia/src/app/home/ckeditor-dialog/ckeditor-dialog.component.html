@@ -1,0 +1,28 @@
+<div id="editComponent">
+  <div class="edit_info">
+    <img src="../../../assets/avatar/avatar24.jpg" alt="">
+    <span>鲨鱼尾</span>
+  </div>
+  <div class="form-group">
+    <input type="text" [(ngModel)]="content" class="form-control" placeholder="请输入文章标题">
+  </div>
+  <div id="editor">
+  </div>
+  <div class="tags_wrap">
+    <div class="input_tags">
+      <i class="fa fa-tag"></i>
+      <div *ngIf="isEmpty" class="add_tags">
+         <!--(nzClose)="onClose($event)"-->
+        <nz-tag *ngFor="let tag of addTags;let index=index;" (nzClose)="onClose(index,tag)" nzClosable>{{tag}}</nz-tag>
+      </div>
+      <input type="text" [(ngModel)]="_value" (keyup.enter)="getKey()">
+    </div>
+    <div class="tags">
+      <nz-tag *ngFor="let tag of tags;let index=index;" (click)="chooseTags(index)">{{tag}}</nz-tag>
+    </div>
+  </div>
+  <div class="btn_wrap">
+    <div class="btn_my btn" (click)="cancel()" style="background:#e8e8e8;color:#888;">取消</div>
+    <div class="btn_my btn" (click)="_submint()" style="background:#08c2db;color:#fff;">发布</div>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+<div id="followedComponent">
+  <div class="g-box3">
+    <h2 class="w-fttl">粉丝(<span class="ztag">{{followedTotal}}</span>)</h2>
+  </div>
+  <div class="g-box2">
+    <div class="m-glist">
+      <ul>
+        <li (mouseenter)="showPlus()" (mouseleave)="hidePlus()" *ngFor="let fan of fans;let index=index;" style="background:#ececec;">
+          <div class="w-img2 w-img2-1">
+            <a>
+              <img [src]="fan.fanAvatar">
+            </a>
+          </div>
+          <div class="cnt">
+            <a class="bname f-thide">{{fan.fanName}}</a>
+            <div class="del">
+              <a href="#" class="s-fc1">加黑</a>
+              <a class="rem s-fc1" (click)="deletefollowed(fan)">移除粉丝</a>
+            </div>
+          </div>
+          <a class="plus">
+            <i *ngIf="!fan.isfollow" (click)="addfollow(fan)" class="fa fa-plus-square"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="m-page noselect">
+    <a class="w-sbtn w-sbtn-2"  (click)="prview()">
+      <span class="w-ial">上 一 页</span>
+    </a>
+    <div class="num">
+      <span>{{page}} / {{pages}} </span>
+      <span class="arrow">&nbsp;</span>
+    </div>
+    <a class="w-sbtn" (click)="next()">
+      <span class="w-iar r">下 一 页</span>
+    </a>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+<div id="messageComponent">
+  <div class="g-box3">
+    <h2 class="w-fttl">鲨鱼尾的私信</h2>
+  </div>
+  <div class="g-box2">
+    <div class="m-glist">
+      <div class="xlist" *ngFor="let message of messages;let index=index;">
+        <div class="ximg">
+          <div class="w-img2">
+            <a class="ztag">
+              <img class="ztag" style="width:64px;" [src]="message.messageAvatar">
+            </a>
+          </div>
+        </div>
+        <div class="xtxt">
+          <div class="xtit">
+            <span class="s-fc2">
+              <span *ngIf="message.type=='send'">发给&nbsp;</span>
+              <span *ngIf="message.type=='from'">来自&nbsp;</span>
+              <a href="http://lofter-sheying.lofter.com/" target="_blank" class="s-fc2">{{message.to}}</a>
+            </span>
+          </div>
+          <div class="xcnt ztag">{{message.message}}</div>
+          <div class="xopt s-fc2">
+            <span class="xoptl ztag">{{message.time}}</span>
+            <span class="xoptr">
+              <span class="xoptri">
+                <a class="ztag s-fc2" href="#">共{{message.num}}条对话</a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="m-page noselect">
+    <a class="w-sbtn w-sbtn-2" href="#">
+      <span class="w-ial">上 一 页</span>
+    </a>
+    <div class="num">
+      <span>1 / 121 </span>
+      <span class="arrow">&nbsp;</span>
+    </div>
+    <a class="w-sbtn" href="#">
+      <span class="w-iar r">下 一 页</span>
+    </a>
+  </div>
+</div>

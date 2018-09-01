@@ -1,0 +1,53 @@
+<div id="MyPostComponent">
+    <div class="cen">
+        <div class="img_box">
+            <img *ngFor="let postimg of post?.imgs" [src]="postimg" alt="">
+            <div class="text">
+                <p>{{post?.content}}</p>
+            </div>
+            <div class="info">
+                <div class="tags box">
+                    <a *ngFor="let tag of post?.tags;" class="tag">#{{tag}}</a>
+                </div>
+                <div class="lnks box">
+                    <a class="more">{{post?.time}} / 评论：{{post?.comment}} / 热度：{{post?.hot}}</a>
+                </div>
+            </div>
+        </div>
+        <ul class="other">
+            <li *ngFor="let spost of posts;">
+                <a *ngIf="spost?.id" [routerLink]="['mypost',spost?.id]" routerLinkActive="active">
+                <img [src]="spost?.imgs[0]" alt="">
+            </a>
+            </li>
+        </ul>
+        <div class="next_wrap">
+            <a [routerLink]="['/my/1/mypost',nextpostId]">下一篇 ></a>
+        </div>
+        <div>
+            <div class="hot_input">
+                <div class="nctitle">评论</div>
+                <textarea name="" id="" rows="10"></textarea>
+                <div class="bcmtbtn">
+                    <button (click)="comment()" class="s-bd1 s-fc1 s-bg1 ztag">发布</button>
+                </div>
+            </div>
+            <div class="m-hot">
+                <div class="nctitle">热度 ( {{hotLen}} )</div>
+                <ol class="notes">
+                    <li class="note like" *ngFor="let hot of hots">
+                        <a>
+                            <img class="avatar" [src]="hot.friendAvatar">
+                        </a>
+                        <span *ngIf="hot?.like" class="action">
+					        <a>{{hot.friendName}}</a> 很喜欢此图片
+					    </span>
+                        <span *ngIf="hot?.recommend" class="action">
+                            <a>{{hot.friendName}}</a> 推荐了此图片
+                        </span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,131 @@
+[
+    {
+      "id":1,
+      "messageAvatar":"../../assets/message/message1.jpg",
+      "message":"17764546409",
+      "type":"send",
+      "to":"LOFTER摄影",
+      "time":"2018-04-10 16:28",
+      "num":3
+    },{
+      "id":2,
+      "messageAvatar":"../../assets/message/message2.jpg",
+      "message":"LOFTER六周年摆拍摄影大赛 正在等待你的投稿，3月24日之前，晒出你的任意类型摆拍摄影作品参与比赛，万元大奖和魅蓝note6航海王限定款手机等你拿！戳这里查看活动详情和参与：http://www.lofter.com/spread/html/photography?from=letter",
+      "type":"from",
+      "to":"LOFTER通知",
+      "time":"2018-03-02 07:48",
+      "num":32
+    },{
+      "id":3,
+      "messageAvatar":"../../assets/message/message3.jpg",
+      "message":"真的棒！",
+      "type":"from",
+      "to":"Esther_sqh",
+      "time":"2018-01-07 01:11",
+      "num":6
+    },{
+      "id":4,
+      "messageAvatar":"../../assets/message/message4.jpg",
+      "message":"emmmm",
+      "type":"sent",
+      "to":"Cuizw",
+      "time":"2017-10-20 08:30",
+      "num":2
+    },{
+      "id":5,
+      "messageAvatar":"../../assets/message/message5.jpg",
+      "message":"👍",
+      "type":"from",
+      "to":"闲庭者",
+      "time":"2017-02-06 09:22",
+      "num":1
+    },{
+      "id":6,
+      "messageAvatar":"../../assets/message/message6.jpg",
+      "message":"爱认不认，本来不想玩了",
+      "type":"sent",
+      "to":"LOFTER认证管家",
+      "time":"2016-11-28 12:57",
+      "num":2
+    },{
+      "id":7,
+      "messageAvatar":"../../assets/message/message7.jpg",
+      "message":"【少数人才能收到这条消息】你好啊，我是LOFTER福利市集小秘书。今天是福来DAY，我们老大点名【送你500福利币】，现在已经充值到你的账户啦，请在【LOFTER APP-我的-福利市集】中查收。福利币可以在福利市集抵扣现金，享受特惠哦！",
+      "type":"from",
+      "to":"福利市集小秘书",
+      "time":"2016-10-28 15:27",
+      "num":6
+    },{
+      "id":8,
+      "messageAvatar":"../../assets/message/message8.jpg",
+      "message":"我微信",
+      "type":"sent",
+      "to":"Who the fuck is 里德星期五 • FoPoTo",
+      "time":"2016-10-06 10:12",
+      "num":18
+    },{
+      "id":9,
+      "messageAvatar":"../../assets/message/message9.jpg",
+      "message":"不是交个朋友没有其他意思",
+      "type":"from",
+      "to":"咖啡人生",
+      "time":"2016-04-13 00:35",
+      "num":5
+    },{
+      "id":10,
+      "messageAvatar":"../../assets/message/message10.jpg",
+      "message":"谢谢😄😄",
+      "type":"sent",
+      "to":"Saga",
+      "time":"2016-03-29 16:54",
+      "num":28
+    },{
+      "id":11,
+      "messageAvatar":"../../assets/message/message11.jpg",
+      "message":"乐乎",
+      "type":"from",
+      "to":"青岛小伙",
+      "time":"2016-03-26 20:12",
+      "num":9
+    },{
+      "id":12,
+      "messageAvatar":"../../assets/message/message12.jpg",
+      "message":"Hi 关注你这么久 喜欢你的作品，也欢迎关注我并指点一起学习哈 微博林子子zi",
+      "type":"from",
+      "to":"子子",
+      "time":"2016-03-23 10:45",
+      "num":1
+    },{
+      "id":13,
+      "messageAvatar":"../../assets/message/message13.jpg",
+      "message":"我微信号",
+      "type":"sent",
+      "to":"icerui＃ΓΛΚΣΤΘ",
+      "time":"2016-03-22 23:43",
+      "num":22
+    },{
+      "id":14,
+      "messageAvatar":"../../assets/message/message14.jpg",
+      "message":"我加了",
+      "type":"sent",
+      "to":"谢小曼",
+      "time":"2016-03-18 16:49",
+      "num":8
+    },{
+      "id":15,
+      "messageAvatar":"../../assets/message/message15.jpg",
+      "message":"啊，谢谢😄",
+      "type":"sent",
+      "to":"与久与栖",
+      "time":"2016-02-15 23:57",
+      "num":2
+    },{
+      "id":16,
+      "messageAvatar":"../../assets/message/message16.jpg",
+      "message":"谢谢啦！",
+      "type":"sent",
+      "to":"沉睡的森林·LoFoTo",
+      "time":"2016-02-10 23:53",
+      "num":3
+    }
+]

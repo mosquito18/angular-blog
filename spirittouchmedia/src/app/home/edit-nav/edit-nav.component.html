@@ -1,0 +1,31 @@
+<div class="publishBarArea">
+  <ul id="publishPostBar" class="m-nav2">
+    <li class="user">
+      <div id="preview">
+        <!--../../../assets/上传.png      ../../../assets/avator.png-->
+        <img id="imghead" border="0" src="../../../assets/上传.png" width="110" height="110" onClick="$('#previewImg').click();">
+      </div>
+      <input type="file" onChange="previewImage(this)" style="display: none;" id="previewImg">
+    </li>
+    <li>
+      <a (click)="showTestModalMiddle()"><i class="word fa fa-font"></i><p>文字</p></a>
+    </li>
+    <li>
+      <a><i class="pic fa fa-camera"></i><p>图片</p></a>
+    </li>
+    <li>
+      <a><i class="music fa fa-music"></i><p>音乐</p></a>
+    </li>
+    <li>
+      <a><i class="video fa fa-video-camera"></i><p>视频</p></a>
+    </li>
+    <li>
+      <a><i class="article fa fa-file-text"></i><p>长文章</p></a>
+    </li>
+  </ul>
+</div>
+<!--<image-upload></image-upload>-->
+<!--<div class="con4">
+  <canvas #myCanvas id="cvs" width="200" height="200"></canvas>
+  <span class="btn upload">上传头像<input type="file" class="upload_pic" id="upload" /></span>
+</div>-->

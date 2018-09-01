@@ -1,0 +1,41 @@
+<div id="headerComponent">
+  <div *ngIf="isMy" class="person">
+    <div class="nav per">
+      <a class="logo" routerLink="/home" routerLinkActive="active">
+        <img src="../../assets/logo.png" alt="">
+      </a>
+      <div class="header_l h_per">
+        <!--<a routerLink="/home" routerLinkActive="active">Home</a>
+        <a routerLink="/about" routerLinkActive="active">About</a>
+        <a routerLink="/offer" routerLinkActive="active">Offer</a>-->
+        <div *ngIf="!isMine">
+          <i class="fa fa-heart"></i>
+          <i class="fa fa-thumbs-o-up"></i>
+          <a><i class="fa fa-retweet"></i>转载</a>
+          <a><i class="fa fa-warning"></i>举报</a>
+          <a><i class="fa fa-share-square-o"></i>分享</a>
+          <a><i class="fa fa-minus-square"></i>取消关注</a>
+        </div>
+        <a routerLink="/home" routerLinkActive="active"><i class="fa fa-home"></i>返回首页</a>
+        <a *ngIf="isMine" (click)="logout()"><i class="fa fa-close"></i>退出登录</a>
+      </div>
+    </div>
+    <p><span class="userName">{{userName}}</span></p>
+  </div>
+  <div *ngIf="!isMy" class="other">
+    <div class="nav oth">
+      <a class="logo_oth" routerLink="/home" routerLinkActive="active">
+        <img src="../../assets/logo_black.jpg" alt="">
+      </a>
+      <div class="header_l h_oth">
+        <a class="home" routerLink="/home" routerLinkActive="active"><i class="fa fa-home"></i>首页</a>
+        <a class="home" routerLink="/contact" routerLinkActive="active"><i class="fa fa-paper-plane"></i>联系我们</a>
+        <div class="search">
+          <input style="width: 220px;" class="nav_search" type="text" placeholder="input search text" [(ngModel)]="_value" />
+          <a [routerLink]="['/home/search',_value]" routerLinkActive="active"><i class="fa fa-search"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

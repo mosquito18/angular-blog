@@ -1,0 +1,111 @@
+<div id="homeComponent">
+	<div class="home_l">
+		<router-outlet></router-outlet>
+	</div>
+	<div class="home_r">
+		<div class="menum">
+			<ul class="lis">
+				<li class="large">
+					<a class="mi1" routerLink="/my/1" routerLinkActive="active">
+						<span class="txt">
+							<span class="lg1">鲨鱼尾</span>
+							<span class="lg2">guaishouyinghua.lofter.com</span>
+						</span>
+          			</a>
+				</li>
+				 <!--style="border-color:#b2b2b2;" class="noipt-1 j-crt"-->
+				<li class="blog">
+					<a routerLink="/home/blog" routerLinkActive="active" class="mi">
+						<div>
+							<i class="fa fa-book"></i>
+							<span class="txt">文章</span>
+						</div>
+						<span class="inf inf-1" id="rside-postcount">{{postsTotal}}</span>
+					</a>
+				</li>
+				<li class="like">
+					<a routerLink="/home/like" routerLinkActive="active" class="mi">
+						<div>
+							<i class="fa fa-heart"></i>
+							<span class="txt">喜欢</span>
+						</div>
+						<span class="inf inf-1" id="gsdfavcount">{{likepostsTotal}}</span>
+					</a>
+				</li>
+				<li class="followed">
+					<a routerLink="/home/followed" routerLinkActive="active" class="mi">
+						<div>
+							<i class="fa fa-users"></i>
+							<span class="txt">粉丝</span>
+						</div>
+
+						<span class="inf inf-1">{{followedTotal}}</span>
+					</a>
+				</li>
+				<li class="view">
+					<a routerLink="/home/view" routerLinkActive="active" class="mi">
+						<div>
+							<i class="fa fa-eye"></i>
+							<span class="txt">关注</span>
+						</div>
+						<span class="inf inf-1">{{followTotal}}</span>
+					</a>
+				</li>
+				<li class="notice">
+					<a routerLink="/home/notice" routerLinkActive="active" class="mi">
+						<div>
+							<i class="fa fa-bell"></i>
+							<span class="txt">通知</span>
+						</div>
+					</a>
+				</li>
+				<li class="message">
+					<a routerLink="/home/message" routerLinkActive="active" class="mi">
+						<div>
+							<i class="fa fa-send"></i>
+							<span class="txt">私信</span>
+						</div>
+						<span class="inf inf-1 tip" id="bgmanmsg" style="display:none;">0</span>
+					</a>
+				</li>
+				<!--<li class="noipt ">
+					<a onclick="window.loft.g.g3(event);" class="mi mi-noipt">
+						<div>
+							<i class="fa fa-gear"></i>
+							<span class="txt">个人主页设置</span>
+						</div>
+					</a>
+				</li>
+				<li class="noipt noipt-2">
+					<a class="mi">
+						<div>
+							<i class="fa fa-file"></i>
+							<span class="txt">批量管理文章</span>
+						</div>
+					</a>
+				</li>-->
+			</ul>
+		</div>
+		<div class="hot_tag">
+			<p>推荐关注</p>
+			<div class="recommand">
+				<img src="../../assets/avatar/avatar21.jpg" alt="">
+				<img src="../../assets/avatar/avatar22.jpg" alt="">
+				<img src="../../assets/avatar/avatar23.jpg" alt="">
+				<img src="../../assets/avatar/avatar24.jpg" alt="">				
+			</div>
+		</div>
+		<div class="hot_tag">
+			<p>热门标签</p>
+			<div>
+				<div class="tag" *ngFor="let tag of tags">{{tag}}</div>
+			</div>
+		</div>
+		<div class="hot_link">
+			<p>友情链接</p>
+			<div>
+
+			</div>
+		</div>
+	</div>
+</div>

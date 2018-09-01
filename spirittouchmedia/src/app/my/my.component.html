@@ -1,0 +1,26 @@
+<div id="MyComponent">
+  <div class="post_wrap">
+    <a [routerLink]="['mypost',post.id]"  routerLinkActive="active" class="m-post" *ngFor="let post of posts;">
+      <div class="box">
+        <div class="ct">
+          <div class="pic">
+            <a class="img">
+              <img [src]="post.imgs[0]">
+            </a>
+          </div>
+          <div class="text">
+            <p>{{post.content}}</p>
+          </div>
+        </div>
+        <div class="info">
+          <div class="tags box">
+            <a *ngFor="let tag of post.tags;" class="tag">#{{tag}}</a>
+          </div>
+          <div class="lnks box">
+            <a class="more">{{post.time}} / 评论：{{post.comment}} / 热度：{{post.hot}}</a>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>

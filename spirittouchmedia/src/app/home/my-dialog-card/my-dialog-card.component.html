@@ -1,0 +1,68 @@
+<div class="m-mlist" *ngFor="let post of posts;let index=index;">
+    <div class="mlistcnt">
+    <div class="isay">
+      <div class="tag9">
+        <div class="isayt">
+        </div>
+        <div class="isaym">
+          <div class="w-who">
+            <a href="">{{post.ownerName}}</a>
+          </div>
+          <div>
+            <div class="m-icnt">
+              <div class="cnt">
+                <div *ngIf="!isBig[index]" class="img" style="width: 164px; height: auto;">
+                  <div class="imgc">
+                    <a (click)="enlarge(index)">
+                      <img style="width: 164px;" [src]="post.imgs[0]">
+                    </a>
+                    <div class="total" *ngIf="post.imgs.length>1">
+                      <span class="totalnum">{{post.imgs.length}}</span>
+                    </div>
+                  </div>
+                </div>
+                <div style="width: 500px;" *ngIf="isBig[index]" class="img">
+                  <div style="margin-bottom:15px;" class="imgc" *ngFor="let img of post?.imgs;">
+                    <a (click)="enlarge(index)">
+                      <img style="width: 500px;" [src]="img">
+                    </a>
+                    <a class="w-zoom"><i class="fa fa-search"></i>查看大图</a>
+                  </div>
+                </div>
+                <div class="txt">
+                  <p>{{post.content}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="w-opt">
+               <!--style="width:176px;"-->
+              <div class="opta">
+                <span class="opti">
+                  <i class="fa fa-tag"></i>
+                  <a *ngFor="let tag of post?.tags;" class="tag">{{tag}}</a>
+                </span>
+              </div>
+              <div class="optb" style="width:220px;">
+                <span>
+                  <a href="">编辑</a>
+                </span>
+                <span>
+                  <a href="">删除</a>
+                </span>
+                <span>
+                  <a href="">热度({{post.hot}})</a>
+                </span>
+                <span>
+                  <a href="">评论({{post.comments}})</a>
+                </span>
+                <span class="opti-shareTo">
+                  <a href="">分享</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,54 @@
+#editComponent{
+    padding:20px 10px 10px;
+    .edit_info{
+        margin-bottom: 10px;
+        img{
+            width:64px;
+            height: 64px;
+            margin-right: 10px;
+        }
+        span{
+            font-size:18px;
+            font-weight: bold;
+        }
+    }
+    .tags_wrap{
+        display: flex;
+        flex-direction: column;
+        .input_tags{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 10px 0;
+            // padding-top: 10px;
+            // margin-bottom: 10px;
+            border-bottom: 1px solid #dfdfdf;
+            i{
+                flex: 0 0 auto;
+                padding:0 10px;
+            }
+            .add_tags{
+                flex: 0 0 auto;
+            }
+            input{
+                border: none;
+                outline: none;
+            }
+        }
+        .tags{
+            padding-top: 10px;
+            nz-tag{
+                margin-top:5px;
+            }
+        }
+    }
+    .btn_wrap{
+        display: flex;
+        justify-content: flex-end;
+        .btn_my{
+            padding: 5px 20px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    }
+}

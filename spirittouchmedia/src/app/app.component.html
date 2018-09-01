@@ -1,0 +1,22 @@
+<!---->
+<div *ngIf="url=='/login'">
+    <router-outlet></router-outlet>
+</div>
+<div *ngIf="url!='/login'">
+    <nz-layout>
+        <div>
+            <app-header></app-header>
+        </div>
+        <nz-content>
+            <router-outlet></router-outlet>
+        </nz-content>
+        <div *ngIf="isMy" class="footer">
+            <img src="../assets/footer.png" alt="">
+            <div class="powered">© 鲨鱼尾 | Powered by Inspiration Touch</div>
+        </div>
+        <div *ngIf="!isMy" class="footer">
+            <div style="background:#333;" class="powered">© 鲨鱼尾 | Powered by Inspiration Touch</div>
+        </div>
+        
+    </nz-layout>
+</div>

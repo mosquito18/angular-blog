@@ -1,0 +1,143 @@
+[
+    {
+      "id":1,
+      "fanId":"21",
+      "fanAvatar":"../../assets/follow/follow_avatar1.jpg",
+      "fanName":"手指断了a",
+      "fanedId":1,
+      "time":"04/12 10:12"
+    },{
+      "id":2,
+      "fanId":"22",
+      "fanAvatar":"../../assets/follow/follow_avatar2.jpg",
+      "fanName":"猎影人",
+      "fanedId":1,
+      "time":"04/16 20:37"
+    },{
+      "id":3,
+      "fanId":"23",
+      "fanAvatar":"../../assets/follow/follow_avatar3.jpg",
+      "fanName":"只有沙雕摸鱼了",
+      "fanedId":1,
+      "time":"04/20 18:29"
+    },{
+      "id":4,
+      "fanId":"24",
+      "fanAvatar":"../../assets/follow/follow_avatar4.jpg",
+      "fanName":"张灯洁彩·FoPoTo",
+      "fanedId":1,
+      "time":"3小时前"
+    },{
+      "id":5,
+      "fanId":"25",
+      "fanAvatar":"../../assets/follow/follow_avatar5.jpg",
+      "fanName":"柯力",
+      "fanedId":1,
+      "time":"04/20 12:57"
+    },{
+      "id":6,
+      "fanId":"26",
+      "fanAvatar":"../../assets/follow/follow_avatar6.jpg",
+      "fanName":"芥茉在拍照",
+      "fanedId":1,
+      "time":"04/09 22:40"
+    },{
+      "id":7,
+      "fanId":"27",
+      "fanAvatar":"../../assets/follow/follow_avatar7.jpg",
+      "fanName":"K教授",
+      "fanedId":1,
+      "time":"04/16 23:21"
+    },{
+      "id":8,
+      "fanId":"28",
+      "fanAvatar":"../../assets/follow/follow_avatar8.jpg",
+      "fanName":"一張王小帥",
+      "fanedId":1,
+      "time":"03/13 11:00"
+    },    {
+      "id":9,
+      "fanId":"29",
+      "fanAvatar":"../../assets/follow/follow_avatar9.jpg",
+      "fanName":"WEEDPOT",
+      "fanedId":1,
+      "time":"04/15 03:34"
+    },    {
+      "id":10,
+      "fanId":"30",
+      "fanAvatar":"../../assets/follow/follow_avatar10.jpg",
+      "fanName":"VaNight",
+      "fanedId":1,
+      "time":"04/21 21:36"
+    },{
+      "id":11,
+      "fanId":"31",
+      "fanAvatar":"../../assets/follow/follow_avatar11.jpg",
+      "fanName":"Huidu Cameraer",
+      "fanedId":1,
+      "time":"04/20 07:21"
+    },{
+      "id":12,
+      "fanId":"32",
+      "fanAvatar":"../../assets/follow/follow_avatar12.jpg",
+      "fanName":"包包包子铺！",
+      "fanedId":1,
+      "time":"04/21 10:27"
+    },{
+      "id":13,
+      "fanId":"33",
+      "fanAvatar":"../../assets/follow/follow_avatar13.jpg",
+      "fanName":"手作杂货铺",
+      "fanedId":1,
+      "time":"2017/10/23 15:02"
+    },{
+      "id":14,
+      "fanId":"34",
+      "fanAvatar":"../../assets/follow/follow_avatar14.jpg",
+      "fanName":"提香",
+      "fanedId":1,
+      "time":"04/20 21:42"
+    },{
+      "id":15,
+      "fanId":"35",
+      "fanAvatar":"../../assets/follow/follow_avatar15.jpg",
+      "fanName":"LOFTER摄影",
+      "fanedId":1,
+      "time":"2小时前"
+    },{
+      "id":16,
+      "fanId":"36",
+      "fanAvatar":"../../assets/follow/follow_avatar16.jpg",
+      "fanName":"艾艾艾艾xue",
+      "fanedId":1,
+      "time":"04/10 14:55"
+    },{
+      "id":17,
+      "fanId":"37",
+      "fanAvatar":"../../assets/follow/follow_avatar17.jpg",
+      "fanName":"林初寒",
+      "fanedId":1,
+      "time":"2017/04/12 23:26"
+    },{
+      "id":18,
+      "fanId":"38",
+      "fanAvatar":"../../assets/follow/follow_avatar18.jpg",
+      "fanName":"鱼的心",
+      "fanedId":1,
+      "time":"04/20 15:29"
+    },{
+      "id":19,
+      "fanId":"39",
+      "fanAvatar":"../../assets/follow/follow_avatar19.jpg",
+      "fanName":"Hangzhou10676",
+      "fanedId":1,
+      "time":"03/21 10:30"
+    },{
+      "id":20,
+      "fanId":"40",
+      "fanAvatar":"../../assets/follow/follow_avatar20.jpg",
+      "fanName":"Who the fuck is 里德星期五 • FoPoTo",
+      "fanedId":1,
+      "time":"01/01 21:04"
+    }
+]
